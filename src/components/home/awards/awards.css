@@ -1,0 +1,70 @@
+.awards {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.awards .heading {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.awards .heading p {
+  color: #00ffcc;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.awards .heading h1 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.awards .icon {
+  width: 110px;
+  height: 110px;
+  line-height: 110px;
+  margin: auto;
+  margin-top: 40px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 2px solid rgba(0, 245, 212, 0.4);
+  border-radius: 50%;
+  font-size: 34px;
+  color: #00f5d4;
+  box-shadow: 0 0 15px rgba(0, 255, 200, 0.4);
+  transition: all 0.4s ease;
+}
+
+.awards .icon:hover {
+  transform: rotate(10deg) scale(1.2);
+  background: rgba(0, 255, 200, 0.1);
+  box-shadow: 0 0 25px rgba(0, 255, 200, 0.7);
+}
+
+.awards h1 {
+  font-size: 42px;
+  margin-top: 15px;
+  color: #00ffcc;
+}
+
+.awards p {
+  color: #b0bec5;
+  font-size: 16px;
+}
+
+.glow {
+  animation: pulse 2.5s infinite alternate;
+}
+
+@keyframes pulse {
+  from {
+    box-shadow: 0 0 10px rgba(0, 255, 200, 0.4);
+  }
+  to {
+    box-shadow: 0 0 25px rgba(0, 255, 200, 0.7);
+  }
+}
