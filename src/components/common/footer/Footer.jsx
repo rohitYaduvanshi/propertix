@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className='legal'>
-        <span>© 2021 Popertix. Designd By GorkCoder.</span>
+        <span>© 2021 Popertix. Designd By Saikotx-BBIT.</span>
       </div>
     </>
   )
